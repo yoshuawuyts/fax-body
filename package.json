@@ -1,0 +1,31 @@
+{
+  "name": "fax-body",
+  "version": "1.0.0",
+  "description": "Parse response bodies with generators",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "make test"
+  },
+  "repository": "yoshuawuyts/fax-body",
+  "keywords": [
+    "fax",
+    "generators",
+    "middleware",
+    "client"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "raw-body": "^1.3.1"
+  },
+  "devDependencies": {
+    "istanbul": "^0.3.2",
+    "make-lint": "^1.0.1",
+    "mocha": "^2.0.1"
+  },
+  "files": [
+    "lib",
+    "LICENSE",
+    "HISTORY.md",
+    "README.md"
+  ]
+}
