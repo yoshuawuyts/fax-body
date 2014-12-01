@@ -1,6 +1,6 @@
 {
   "name": "fax-body",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Parse response bodies with generators",
   "main": "lib/index.js",
   "scripts": {
