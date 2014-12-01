@@ -21,12 +21,13 @@ var body = yield parse(req, {limit: '10kb'});
 ```
 
 ## Why?
-[fax](https://github.com/yoshuawuyts/fax) has no notion of body parsing, so
+[fax][fax] has no notion of body parsing, so
 by moving it out into a module there can be custom body parsers for any type
 of content.
 
 ## See also
 - [co-body][co-body]
+- [fax][fax]
 
 ## License
 [MIT](https://tldrlegal.com/license/mit-license)
@@ -41,3 +42,4 @@ of content.
 [downloads-url]: https://npmjs.org/package/fax-body
 
 [co-body]: https://github.com/tj/co-body
+[fax]: https://github.com/yoshuawuyts/fax
